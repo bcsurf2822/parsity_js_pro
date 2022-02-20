@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": ["eslint:recommended"],
+
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": [
+            1,
+            {
+                "trailingComma": "es5",
+                "singleQuote": true,
+                "semi": true
+            }
+        ]
+    }
+}

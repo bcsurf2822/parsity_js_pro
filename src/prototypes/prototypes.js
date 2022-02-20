@@ -7,30 +7,26 @@ const Person = function () {
 // new instance of Person
 const personA = new Person();
 
-console.log('a proto: ', personA.__proto__);
+// TODO:
+// create another instance of Person called personB
+const personB = undefined; // change me
 
-// // another instance of a which is an instance of Person
-const personB = Object.create(personA);
+// TODO:
+// override the default name and job of personB
+// personB name should be 'Randy' and their job should be 'Doughnut Maker'
 
-personB.name = 'Randy';
-personB.job = 'Doughnut Maker';
+// TODO:
+// attach a new method `greeting` to the Person prototype
+// it should return a greeting that says `My name is <name> and my job is <job>`
 
-console.log('b proto', personB.__proto__);
+// TODO:
+// add a new method to the Array prototype called `myCustomFind`
+// this method should take in a single argument and return `true` if that argument is found in the array and `false` if not
+// ex: [1,2,3].myCustomFind(3) = true
+// [1,2,3].myCustomFind(10) = false
 
-Person.prototype.someNewMethod = function () {
-    console.log(`My name is ${this.name} and my job is ${this.job}`);
+module.exports = {
+    personB,
+    personA,
+    Person,
 };
-
-console.log(personA.someNewMethod());
-console.log(personB.someNewMethod());
-
-Array.prototype.myCustomFind = function (x) {
-    if (this.includes(x)) {
-        return true;
-    } else {
-        return false;
-    }
-};
-
-console.log([1, 2, 3].myCustomFind(1));
-console.log([1, 2, 3].myCustomFind(10));
