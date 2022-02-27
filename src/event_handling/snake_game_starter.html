@@ -1,0 +1,77 @@
+<style>
+    #grid {
+        width: 240px;
+        height: 210px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .grid-space {
+        border: 1px solid grey;
+        width: 20px;
+        height: 20px;
+    }
+
+    .snaky {
+        background-color: red;
+    }
+
+    .apple {
+        background-color: green;
+    }
+</style>
+
+<div id="grid"></div>
+<div style="margin-top: 20px">
+    <button id="up">Up</button>
+    <button id="down">Down</button>
+    <button id="left">Left</button>
+    <button id="right">Right</button>
+    <button id="startGame">Start Over</button>
+
+    <p>PTS:</p>
+    <p id="pts"></p>
+</div>
+
+<script>
+    /* 
+        TODO:
+        Update the code here to make the snake game work
+        The snake should be able to change directions
+        There should always be an apple present within the board
+        If the snake eats an apple, a new apple should be randomly placed on the board
+        Every time an apple is "eaten" - a point should be added to the score
+        Starting the game over should reset the points, move the snake back to its original positions and clear all apples
+    */
+    const grid = document.getElementById('grid');
+    let pts = 0;
+
+    const startGameBtn = document.getElementById('startGame');
+
+    const createBoard = () => {
+        for (let i = 0; i < 100; i++) {
+            const div = document.createElement('div');
+            div.classList.add('grid-space');
+            grid.appendChild(div);
+        }
+    };
+    // create board
+
+    startGameBtn.addEventListener('click', () => {
+        // add your code here
+        startGame();
+    });
+
+    const startGame = () => {
+        createBoard();
+
+        const allGridElems = document.querySelectorAll('.grid-space');
+
+        // add any code you need to start the game
+        // like setting the direction or helper functions to eat an apple
+
+        const moveSnake = setInterval(() => {
+            // add code here to move snake
+        }, 1000);
+    };
+</script>

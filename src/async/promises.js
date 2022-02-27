@@ -25,7 +25,13 @@ const getData = async () => {
     // you should return an object in the same shape as the `retVal` above
 };
 
+const handleMultiplePromises = async (promises) => {
+    // use promise.all to resolve multiple promises
+};
+
 module.exports = {
     getDataPromiseChain,
     getData,
+    handleMultiplePromises,
+    fakeApiCall,
 };
