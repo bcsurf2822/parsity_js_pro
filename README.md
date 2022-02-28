@@ -16,10 +16,10 @@ We have laid out the most common concepts that confuse JS developers. Here's how
 2. Read any related articles that are linked
 3. <strong>Everyone learns differently</strong> - feel free to look up these concepts using the medium you prefer to round out your knowledge
 4. Each module has broken unit tests... you need to fix them with the correct code
-5. Often times, the solution will be in the video in the `READEME.md` - DO NOT simply copy the answer from there! You will learn nothing
+5. Often times, the solution will be in the video in the `README.md` - DO NOT simply copy the answer from there! You will learn nothing
 6. Reach out on slack and during your 1 x 1 sessions if you need help
 
-We know that getting your dream job as a software engineer requires a strong technical foundation but that's not all!
+We know that getting your dream job as a software engineer or excelling in your current role requires a strong technical foundation but that's not all!
 
 Your LinkedIn, resume and general job strategy must be aligned with your goals and your mindset must be in the correct state to perform to the best of your ability.
 
@@ -41,36 +41,35 @@ We will go over job/interview strategy in other modules and templates.
 ### Week 1
 
 -   [ ] Prototypes
--   [ ] This and Context
 -   [ ] Bind, Call, Apply
 
 ### Week 2
 
 -   [ ] Map, Filter, Reduce, ...es6/7/8
 -   [ ] Closure
--   [ ] Event Handling
 
 ### Week 3
 
--   [ ] Design Patterns
--   [ ] Lodash Replicas
+-   [ ] Event Handling (Snake Game)
+-   [ ] Async in JS
 
 ### Week 4
+
+-   [ ] Design Patterns
+
+### Week 5
 
 -   [ ] Recursion in JS
 -   [ ] Data Structures
 
-### Week 5
-
--   [ ] Sorting and Searching Algos
-
 ### Week 6
 
--   [ ] Async in JS
+-   [ ] Big O Crash Course
+-   [ ] Sorting and Searching Algos
 
 ### Week 7
 
--   [ ] Create a snake game
+-   [ ] React Crash Course
 
 ### Week 8
 

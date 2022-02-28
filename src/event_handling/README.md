@@ -14,8 +14,10 @@ https://www.w3schools.com/jsref/met_win_clearinterval.asp
 
 https://www.w3schools.com/jsref/met_win_cleartimeout.asp
 
-### Videos
-
----
+### Video
 
 https://www.loom.com/share/98bef9910977437eb7ed89c0fa01a8a6
+
+### TODO
+
+Now your turn! Create a short video explaining the difference between event bubbling vs event capturing. Why might you use one over the other? (And yes, you're correct this was not covered here... that's the point )
