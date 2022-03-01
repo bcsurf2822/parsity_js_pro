@@ -1,4 +1,4 @@
-function LinkedList(val) {
+function LinkedList() {
     this.head = null;
 }
 
@@ -18,19 +18,21 @@ LinkedList.prototype.addNode = function (val) {
         while (currentNode.next) {
             currentNode = currentNode.next;
         }
-
         currentNode.next = new Node(val);
     }
 };
 
 LinkedList.prototype.removeNode = function (val) {
-    if (this.head.node === val) {
-        this.head = this.head.next;
+    let currentNode = this.head;
+    let prev = null;
+    while (currentNode.next) {
+        if (currentNode.node === val) {
+            prev.next = currentNode.next;
+        } else {
+            prev = currentNode;
+        }
+        currentNode = currentNode.next;
     }
-};
-
-module.export = {
-    LinkedList,
 };
 
 const list = new LinkedList();
@@ -39,3 +41,11 @@ list.addNode(10);
 list.addNode(9);
 
 console.log(list);
+
+list.removeNode(10);
+
+console.log(list);
+
+module.export = {
+    LinkedList,
+};

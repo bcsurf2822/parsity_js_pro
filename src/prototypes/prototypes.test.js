@@ -1,6 +1,6 @@
 const { personB, personA, Person } = require('./prototypes');
 
-describe('prototypes', () => {
+describe.skip('prototypes', () => {
     it('creates an instance of Person', () => {
         expect(personB.name).toEqual('Randy');
         expect(personB.job).toEqual('Doughnut Maker');

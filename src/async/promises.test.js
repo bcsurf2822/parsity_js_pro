@@ -5,7 +5,7 @@ const {
     fakeApiCall,
 } = require('./promises');
 
-describe('getDataPromiseChain', () => {
+describe.skip('getDataPromiseChain', () => {
     it('returns an object with name, age and job', () => {
         getDataPromiseChain().then((res) => {
             expect(res).toStrictEqual({
@@ -17,7 +17,7 @@ describe('getDataPromiseChain', () => {
     });
 });
 
-describe('getData', () => {
+describe.skip('getData', () => {
     it('returns an object with name, age and job', async () => {
         const data = await getData();
         expect(data).toStrictEqual({
@@ -28,7 +28,7 @@ describe('getData', () => {
     });
 });
 
-describe('handleMultiplePromises', () => {
+describe.skip('handleMultiplePromises', () => {
     it('returns an array of objects returned from a set of promises', async () => {
         const [promise1, promise2, promise3] = [
             fakeApiCall({ name: 'Jill' }),

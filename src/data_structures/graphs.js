@@ -11,7 +11,7 @@ class Graph {
 
     addVertex(v) {
         if (this.adjList[v]) {
-            throw error('Vertex already exists');
+            throw new Error('Vertex already exists');
         }
 
         this.adjList[v] = [];
@@ -21,7 +21,7 @@ class Graph {
         this.adjList[v].push(w);
     }
 
-    bfs(node) {
+    bfs(node, visited = []) {
         //add your code here
 
         return visited;

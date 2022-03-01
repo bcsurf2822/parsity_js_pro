@@ -1,5 +1,5 @@
 const fakeApiCall = (args) => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         resolve({ data: args });
     });
 };
@@ -25,7 +25,7 @@ const getData = async () => {
     // you should return an object in the same shape as the `retVal` above
 };
 
-const handleMultiplePromises = async (promises) => {
+const handleMultiplePromises = async (promises = []) => {
     // use promise.all to resolve multiple promises
 };
 

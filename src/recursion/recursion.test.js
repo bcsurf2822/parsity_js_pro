@@ -1,6 +1,6 @@
 const { flattenArray, fileExplorer } = require('./recursion');
 
-describe('flattenArray', () => {
+describe.skip('flattenArray', () => {
     it('returns a flattened array from nested set of arrays', () => {
         const nestedArr = [1, 2, [3, 4], [5, [6, [7, 8, [9]]]], 10];
 
@@ -10,7 +10,7 @@ describe('flattenArray', () => {
     });
 });
 
-describe('fileExplorer', () => {
+describe.skip('fileExplorer', () => {
     const fileObj = {
         myPics: {
             vacationPics: {

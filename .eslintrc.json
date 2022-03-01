@@ -1,23 +1,13 @@
 {
     "env": {
         "browser": true,
-        "es2020": true
+        "commonjs": true,
+        "es2021": true,
+        "jest": true
     },
-    "extends": ["eslint:recommended"],
-
+    "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": 11,
-        "sourceType": "module"
+        "ecmaVersion": 13
     },
-    "plugins": ["prettier"],
-    "rules": {
-        "prettier/prettier": [
-            1,
-            {
-                "trailingComma": "es5",
-                "singleQuote": true,
-                "semi": true
-            }
-        ]
-    }
+    "rules": {}
 }
