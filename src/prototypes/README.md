@@ -12,4 +12,4 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-d
 
 ### TODO 🧐
 
-Now your turn! Create a short video explaining prototypal inheritance and send to your mentor via slack.
+Now your turn! Create a short video explaining prototypal inheritance and how it differs from class inheritance and send to your mentor via slack.

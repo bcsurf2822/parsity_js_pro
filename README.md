@@ -56,15 +56,16 @@ We will go over job/interview strategy in other modules and templates.
 ### Week 4
 
 -   [ ] Design Patterns
+-   [ ] Lodash Replica-Lite
 
 ### Week 5
 
 -   [ ] Recursion in JS
--   [ ] Data Structures
+-   [ ] Big O Crash Course
 
 ### Week 6
 
--   [ ] Big O Crash Course
+-   [ ] Data Structures
 -   [ ] Sorting and Searching Algos
 
 ### Week 7
