@@ -23,3 +23,7 @@ https://www.loom.com/share/9d27975161d542e28266195d499b1749?sharedAppSource=pers
 ### Postorder and Inorder Traversal
 
 https://www.loom.com/share/d7dda530d41f42ef8ebce1590e9f5c0a
+
+### Linked List
+
+https://www.loom.com/share/3920b88f94c14611b25a2d48c145696e

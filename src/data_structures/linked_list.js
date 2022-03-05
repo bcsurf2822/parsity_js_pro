@@ -1,5 +1,5 @@
-function LinkedList() {
-    this.head = null;
+function LinkedList(val) {
+    this.head = new Node(val);
 }
 
 function Node(val) {
@@ -7,45 +7,10 @@ function Node(val) {
     this.next = null;
 }
 
-LinkedList.prototype.addNode = function (val) {
-    let next, currentNode;
+LinkedList.prototype.addNode = function (val) {};
 
-    if (this.head === null) {
-        this.head = new Node(val);
-    } else {
-        currentNode = this.head;
+LinkedList.prototype.removeNode = function (val) {};
 
-        while (currentNode.next) {
-            currentNode = currentNode.next;
-        }
-        currentNode.next = new Node(val);
-    }
-};
-
-LinkedList.prototype.removeNode = function (val) {
-    let currentNode = this.head;
-    let prev = null;
-    while (currentNode.next) {
-        if (currentNode.node === val) {
-            prev.next = currentNode.next;
-        } else {
-            prev = currentNode;
-        }
-        currentNode = currentNode.next;
-    }
-};
-
-const list = new LinkedList();
-list.addNode(3);
-list.addNode(10);
-list.addNode(9);
-
-console.log(list);
-
-list.removeNode(10);
-
-console.log(list);
-
-module.export = {
+module.exports = {
     LinkedList,
 };
