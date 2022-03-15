@@ -1,5 +1,7 @@
 const obj = {
     name: 'Chadwick the III',
+    age: 33,
+    job: 'Engineer',
 };
 
 function unboundFunc() {
@@ -11,13 +13,11 @@ function unboundFunc() {
 const boundFunc = undefined;
 
 function funcToCall(age, job) {
-    return `Hey my name is ${this.name} and I'm ${age} years old. My job is ${job}`;
+    // you code here
 }
 
 function funcToApply(additionalHobbies) {
-    return `Hey my name is ${this.name} and I like ${additionalHobbies.join(
-        ', '
-    )}`;
+    // your code here
 }
 
 module.exports = {

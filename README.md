@@ -56,7 +56,7 @@ We will go over job/interview strategy in other modules and templates.
 ### Week 4
 
 -   [ ] Design Patterns
--   [ ] Lodash Replica-Lite
+-   [ ] Lodash Replica
 
 ### Week 5
 
