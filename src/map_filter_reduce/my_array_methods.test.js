@@ -24,6 +24,23 @@ describe.skip('myArrayMethods', () => {
         expect(filteredArr).toEqual([2, 4, 6, 8, 10, 12, 14, 16]);
     });
 
+    it('returns true if every item in an array matches a conditon', () => {
+        const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+
+        const isEven = (num) => num % 2 === 0;
+        const isLessThan100 = (num) => num < 100;
+        expect(arr.myEvery(isEven)).toEqual(false);
+        expect(arr.myEvery(isLessThan100)).toEqual(true);
+    });
+
+    it('returns true if some items in the array match a conditon', () => {
+        const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+
+        const isEven = (num) => num % 2 === 0;
+
+        expect(arr.mySome(isEven)).toEqual(true);
+    });
+
     it('sums numbers in an array', () => {
         expect(addAllNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toEqual(55);
     });
