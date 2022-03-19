@@ -21,7 +21,7 @@ describe.skip('funcToApply', () => {
 
 describe.skip('funcToCall', () => {
     it('returns a new function with `this` explicitly set', () => {
-        expect(funcToApply.apply(obj, [['horseback riding']])).toEqual(
+        expect(funcToApply.apply(obj, ['horseback riding'])).toEqual(
             'Hey my name is Chadwick the III and I like horseback riding'
         );
     });

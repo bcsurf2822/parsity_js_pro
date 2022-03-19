@@ -5,3 +5,11 @@ Array.prototype.myFilter = function (callBack) {
 Array.prototype.myMap = function (callBack) {
     //add your code here
 };
+
+const addAllNumbers = (arr) => {
+    //add your code here using reduce
+};
+
+module.exports = {
+    addAllNumbers,
+};

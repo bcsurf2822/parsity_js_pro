@@ -1,4 +1,5 @@
 require('./my_array_methods');
+const { addAllNumbers } = require('./my_array_methods');
 
 describe.skip('myArrayMethods', () => {
     it('filters an array', () => {
@@ -21,5 +22,9 @@ describe.skip('myArrayMethods', () => {
 
         expect(arr).toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
         expect(filteredArr).toEqual([2, 4, 6, 8, 10, 12, 14, 16]);
+    });
+
+    it('sums numbers in an array', () => {
+        expect(addAllNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toEqual(55);
     });
 });

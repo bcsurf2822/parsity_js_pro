@@ -30,5 +30,9 @@ describe.skip('personWithPrivateProperties', () => {
         expect(personWithPrivateProperties().bankInfo).toEqual(undefined);
         expect(personWithPrivateProperties().age).toEqual(10);
         expect(personWithPrivateProperties().job).toEqual('Pizza Driver');
+        expect(personWithPrivateProperties().getAccountBalance).toEqual(-5);
+
+        personWithPrivateProperties().updateAccountBalance(100);
+        expect(personWithPrivateProperties().getAccountBalance).toEqual(95);
     });
 });

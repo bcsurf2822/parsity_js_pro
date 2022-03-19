@@ -31,6 +31,12 @@ const personWithPrivateProperties = () => {
         job: 'Pizza Driver',
         accountBalance: -5,
         bankInfo: 'Bank of Venezuela',
+        getAccountBalance: () => {
+            //your code here
+        },
+        updateAccountBalance: (deposit) => {
+            //your code here
+        },
     };
 };
 
