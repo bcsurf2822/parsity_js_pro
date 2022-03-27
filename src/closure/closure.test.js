@@ -26,13 +26,17 @@ describe.skip('addFactory', () => {
 });
 describe.skip('personWithPrivateProperties', () => {
     it('does not allow access to the person`s account balance or bankInfo', () => {
-        expect(personWithPrivateProperties().accountBalance).toEqual(undefined);
-        expect(personWithPrivateProperties().bankInfo).toEqual(undefined);
-        expect(personWithPrivateProperties().age).toEqual(10);
-        expect(personWithPrivateProperties().job).toEqual('Pizza Driver');
-        expect(personWithPrivateProperties().getAccountBalance).toEqual(-5);
+        const person = personWithPrivateProperties();
+        expect(person.accountBalance).toEqual(undefined);
+        expect(person.bankInfo).toEqual(undefined);
+        expect(person.age).toEqual(10);
+        expect(person.job).toEqual('Pizza Driver');
+        expect(person.getAccountBalance()).toEqual(-5);
 
-        personWithPrivateProperties().updateAccountBalance(100);
-        expect(personWithPrivateProperties().getAccountBalance).toEqual(95);
+        person.updateAccountBalance(100);
+        person.updateBank({ name: 'Chase Bank', sensitiveId: 'CB456' });
+
+        expect(person.getAccountBalance()).toEqual(95);
+        expect(person.getBankInfo()).toEqual('Chase Bank');
     });
 });

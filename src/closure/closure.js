@@ -30,7 +30,13 @@ const personWithPrivateProperties = () => {
         age: 10,
         job: 'Pizza Driver',
         accountBalance: -5,
-        bankInfo: 'Bank of Venezuela',
+        bankInfo: { name: 'Bank of Venezuela', sensitiveId: 'BV123' },
+        updateBank: () => {
+            //your code here
+        },
+        getBankInfo: () => {
+            //your code here
+        },
         getAccountBalance: () => {
             //your code here
         },
