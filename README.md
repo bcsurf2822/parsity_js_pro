@@ -42,40 +42,32 @@ We will go over job/interview strategy in other modules and templates.
 
 ---
 
-### Week 1
+### Module 1
 
 -   [ ] Prototypes
 -   [ ] Bind, Call, Apply
 
-### Week 2
+### Module 2
 
 -   [ ] Map, Filter, Reduce, ...es6/7/8
 -   [ ] Closure
 
-### Week 3
+### Module 3
 
 -   [ ] Event Handling (Snake Game)
 -   [ ] Async in JS
 
-### Week 4
+### Module 4
 
 -   [ ] Design Patterns
 -   [ ] Lodash Replica
 
-### Week 5
+### Module 5
 
 -   [ ] Recursion in JS
 -   [ ] Big O Crash Course
 
-### Week 6
+### Module 6
 
 -   [ ] Data Structures
 -   [ ] Sorting and Searching Algos
-
-### Week 7
-
--   [ ] React Crash Course
-
-### Week 8
-
--   [ ] Choose your own adventure (<small>npm package, API, React Project, ...other 🤔</small>)
