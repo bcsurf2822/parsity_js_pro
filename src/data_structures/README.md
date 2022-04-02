@@ -1,3 +1,13 @@
+# Big O
+
+---
+
+https://www.digitalocean.com/community/tutorials/js-big-o-notation
+
+https://www.loom.com/share/0795d0722a8e40e4ba4e1dfb3abc8190
+
+---
+
 # Graphs
 
 ---
