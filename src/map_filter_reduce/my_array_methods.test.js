@@ -6,11 +6,13 @@ describe.skip('myArrayMethods', () => {
         const arrayWithOddNums = [1, 2, 3, 4, 5, 6, 7, 8];
 
         const removeOdds = (num) => num % 2 === 0;
-
         const filteredArr = arrayWithOddNums.myFilter(removeOdds);
 
         expect(arrayWithOddNums).toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
         expect(filteredArr).toEqual([2, 4, 6, 8]);
+        expect(arrayWithOddNums.myFilter((item) => item > 3)).toEqual([
+            4, 5, 6, 7, 8,
+        ]);
     });
 
     it('maps over an array', () => {
@@ -22,6 +24,9 @@ describe.skip('myArrayMethods', () => {
 
         expect(arr).toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
         expect(filteredArr).toEqual([2, 4, 6, 8, 10, 12, 14, 16]);
+        expect(arr.myMap((item) => (item *= 3))).toEqual([
+            3, 6, 9, 12, 15, 18, 21, 24,
+        ]);
     });
 
     it('returns true if every item in an array matches a conditon', () => {
@@ -37,7 +42,6 @@ describe.skip('myArrayMethods', () => {
         const arr = [1, 2, 3, 4, 5, 6, 7, 8];
 
         const isEven = (num) => num % 2 === 0;
-
         expect(arr.mySome(isEven)).toEqual(true);
     });
 
