@@ -1,4 +1,4 @@
-const { flattenArray, fileExplorer } = require('./recursion');
+const { flattenArray, fileExplorer, permutate } = require('./recursion');
 
 describe.skip('flattenArray', () => {
     it('returns a flattened array from nested set of arrays', () => {
@@ -45,5 +45,49 @@ describe.skip('fileExplorer', () => {
         expect(fileExplorer(fileObj, 'brittanyKidPic')).toEqual('brittany');
         expect(fileExplorer(fileObj, 'joeyKidPic')).toEqual('joey');
         expect(fileExplorer(fileObj, 'not_found')).toEqual(false);
+    });
+});
+
+describe('permutate', () => {
+    it('returns all possible permutations in a nested array', () => {
+        expect(permutate(['a', 'b', 'c']).sort()).toEqual(
+            [
+                ['c', 'a', 'b'],
+                ['b', 'a', 'c'],
+                ['c', 'b', 'a'],
+                ['a', 'b', 'c'],
+                ['b', 'c', 'a'],
+                ['a', 'c', 'b'],
+            ].sort()
+        );
+
+        const output = [
+            ['d', 'a', 'b', 'c'],
+            ['c', 'a', 'b', 'd'],
+            ['d', 'a', 'c', 'b'],
+            ['b', 'a', 'c', 'd'],
+            ['c', 'a', 'd', 'b'],
+            ['b', 'a', 'd', 'c'],
+            ['d', 'b', 'a', 'c'],
+            ['c', 'b', 'a', 'd'],
+            ['d', 'b', 'c', 'a'],
+            ['a', 'b', 'c', 'd'],
+            ['c', 'b', 'd', 'a'],
+            ['a', 'b', 'd', 'c'],
+            ['d', 'c', 'a', 'b'],
+            ['b', 'c', 'a', 'd'],
+            ['d', 'c', 'b', 'a'],
+            ['a', 'c', 'b', 'd'],
+            ['b', 'c', 'd', 'a'],
+            ['a', 'c', 'd', 'b'],
+            ['c', 'd', 'a', 'b'],
+            ['b', 'd', 'a', 'c'],
+            ['c', 'd', 'b', 'a'],
+            ['a', 'd', 'b', 'c'],
+            ['b', 'd', 'c', 'a'],
+            ['a', 'd', 'c', 'b'],
+        ];
+
+        expect(permutate(['a', 'b', 'c', 'd']).sort()).toEqual(output.sort());
     });
 });

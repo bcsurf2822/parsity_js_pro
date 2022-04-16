@@ -12,7 +12,13 @@ const fileExplorer = (obj, key) => {
     // it should return false if the key cannot be found
 };
 
+const permutate = (letters = []) => {
+    // add your code here
+    // returns nested array of all possible permuations
+};
+
 module.exports = {
     flattenArray,
     fileExplorer,
+    permutate,
 };
