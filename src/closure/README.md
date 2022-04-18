@@ -4,7 +4,7 @@
 
 ### Basics of Closure
 
-https://www.loom.com/share/dd278638d6ce4530a2aa6419939fa43a?sharedAppSource=personal_library
+https://www.loom.com/share/06768205f8df4362859e0888177d82ad
 
 ### Reading
 
