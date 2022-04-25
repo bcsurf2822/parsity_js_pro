@@ -12,5 +12,8 @@ https://thecodest.co/blog/asynchronous-and-single-threaded-javascript-meet-the-e
 
 ### Video
 
+Promises and asycn/await:
+https://www.loom.com/share/d2197c64158444cfa1808f807a6e4bfd
+
 Event Loop Video:
 https://www.youtube.com/watch?v=8aGhZQkoFbQ&vl=en
