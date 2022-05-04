@@ -23,6 +23,9 @@ const addFactory = (initialNum) => {};
 /* 
     Our person has some sensitive information exposed below
     make `accountBalance` and `bankInfo` private by leveraging closure scope
+    for example: 
+    personWithPrivateProperties().bankInfo.sensitiveId => undefined
+    personWithPrivateProperties().accountBalance => undefined
 */
 
 const personWithPrivateProperties = () => {

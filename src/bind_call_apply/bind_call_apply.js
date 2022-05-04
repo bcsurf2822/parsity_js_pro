@@ -1,28 +1,35 @@
-const obj = {
-    name: 'Chadwick the III',
-    age: 33,
-    job: 'Engineer',
-};
-
+/**
+ * Return a string that uses `this` to get the name property
+ *
+ * @returns {string}
+ */
 function unboundFunc() {
-    return `Hey my name is ${this.name}`;
+    // your code here
 }
 
-// TODO:
-// Bind `unBoundFunc` with the correct context to make tests pass
-const boundFunc = undefined;
-
-function funcToCall(age, job) {
-    // you code here
+/**
+ * Returns a string
+ *
+ * @param {number} age
+ * @param {string} job
+ * @returns {string} My name is {name} I am a {job}
+ */
+function funcToCall() {
+    // your code here
 }
 
-function funcToApply(additionalHobbies) {
+/**
+ * Returns a string
+ *
+ * @param {string} hobby
+ * @returns {string} My name is {name} and I like {hobby}
+ */
+function funcToApply(hobby) {
     // your code here
 }
 
 module.exports = {
-    boundFunc,
     funcToCall,
     funcToApply,
-    obj,
+    unboundFunc,
 };
