@@ -21,12 +21,14 @@ class Graph {
         this.adjList[v].push(w);
     }
 
+    // implements breadth first search
     bfs(node, visited = []) {
         //add your code here
 
         return visited;
     }
 
+    // implements depth first search
     dfs(node, visited = []) {
         //add your code here
 
@@ -40,8 +42,8 @@ class Graph {
 
 module.exports = { Graph };
 
-/*
-
+/**
+* @example Graph 
     A
  /  |  \
 B   D    E

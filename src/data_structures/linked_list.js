@@ -7,9 +7,13 @@ function Node(val) {
     this.next = null;
 }
 
-LinkedList.prototype.addNode = function (val) {};
+LinkedList.prototype.addNode = function (val) {
+    //add your code here
+};
 
-LinkedList.prototype.removeNode = function (val) {};
+LinkedList.prototype.removeNode = function (val) {
+    //add your code here
+};
 
 module.exports = {
     LinkedList,

@@ -17,3 +17,7 @@ https://www.loom.com/share/d2197c64158444cfa1808f807a6e4bfd
 
 Event Loop Video:
 https://www.youtube.com/watch?v=8aGhZQkoFbQ&vl=en
+
+### Your Turn
+
+Make a video explaining promises. Imagine you are explaining this to a non-technical audience or very junior developers.

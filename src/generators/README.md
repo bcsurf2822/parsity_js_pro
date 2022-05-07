@@ -9,4 +9,4 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 ### Video
 
-(TBC)
+https://www.loom.com/share/efbaa936006e4407b077ee92b1b3c449

@@ -49,7 +49,8 @@ We will go over job/interview strategy in other modules and templates.
 
 ### Module 2
 
--   [ ] Map, Filter, Reduce, ...es6/7/8
+-   [ ] Map, Filter, Reduce
+-   [ ] Generators
 -   [ ] Closure
 
 ### Module 3
