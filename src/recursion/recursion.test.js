@@ -48,7 +48,7 @@ describe.skip('fileExplorer', () => {
     });
 });
 
-describe('permutate', () => {
+describe.skip('permutate', () => {
     it('returns all possible permutations in a nested array', () => {
         expect(permutate(['a', 'b', 'c']).sort()).toEqual(
             [
