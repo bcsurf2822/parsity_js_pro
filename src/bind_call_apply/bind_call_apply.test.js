@@ -21,7 +21,7 @@ describe.skip('this binding', () => {
     });
 });
 
-describe.skip('funcToApply', () => {
+describe.skip('funcToCall', () => {
     it('calls the function with `this` explicitly set and accepts comma separated arguments', () => {
         expect(funcToCall.call(sallyObj)).toEqual(
             `My name is Sally and I am a Principal Engineer`
@@ -33,7 +33,7 @@ describe.skip('funcToApply', () => {
     });
 });
 
-describe.skip('funcToCall', () => {
+describe.skip('funcToApply', () => {
     it('calls a function with `this` explicitly set and arguments passed as an array', () => {
         expect(funcToApply.apply(sallyObj, ['horseback riding'])).toEqual(
             'Hey my name is Sally and I like horseback riding'
