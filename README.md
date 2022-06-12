@@ -42,33 +42,33 @@ We will go over job/interview strategy in other modules and templates.
 
 ---
 
-### Module 1
+### Table Stakes
 
 -   [ ] Prototypes
 -   [ ] Bind, Call, Apply
+-   [ ] Closure
 
-### Module 2
+### ES6 and Beyond
 
 -   [ ] Map, Filter, Reduce
 -   [ ] Generators
--   [ ] Closure
+-   [ ] Classes
 
-### Module 3
+### Event Handling
 
 -   [ ] Event Handling (Snake Game)
--   [ ] Async in JS
 
-### Module 4
+### Time Tested Patterns
 
 -   [ ] Design Patterns
--   [ ] Lodash Replica
+-   [ ] Lodash Replica-Lite
 
-### Module 5
+### Big O and Intro to Sorting and Searching
+
+-   [ ] Big O Crash Course
+-   [ ] Sorting and Searching Algos
+
+### To Understand Recursion... you must first understand recursion
 
 -   [ ] Recursion in JS
--   [ ] Big O Crash Course
-
-### Module 6
-
 -   [ ] Data Structures
--   [ ] Sorting and Searching Algos

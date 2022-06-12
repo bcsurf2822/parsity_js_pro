@@ -8,4 +8,4 @@ Read through this tutorial (https://www.dofactory.com/javascript/design-patterns
 -   Singleton
 -   Factory
 
-Record a short loom video describing ONE of the patterns above and walk through your code and some practical examples of why someone might employ this pattern.
+Record a short loom video for EACH of the patterns above and walk through your code and some practical examples of why someone might employ this pattern.
