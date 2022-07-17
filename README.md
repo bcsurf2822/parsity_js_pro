@@ -17,7 +17,8 @@ We have laid out the most common concepts that confuse JS developers. Here's how
 3. <strong>Everyone learns differently</strong> - feel free to look up these concepts using the medium you prefer to round out your knowledge
 4. Each module has broken unit tests... you need to fix them with the correct code
 5. Often times, the solution will be in the video in the `README.md` - DO NOT simply copy the answer from there! You will learn nothing
-6. Reach out on slack and during your 1 x 1 sessions if you need help
+6. For the love of Bob, please do the `Your Turn` sections in each `README.md` - these will help you really retain the information!
+7. Reach out on slack and during your 1 x 1 sessions if you need help
 
 We know that getting your dream job as a software engineer or excelling in your current role requires a strong technical foundation but that's not all!
 

@@ -13,3 +13,8 @@ https://www.loom.com/share/c35f098127924fc5998dce623ea9344d?sharedAppSource=pers
 ### Quick Sort
 
 https://www.loom.com/share/8b0317374aa548769e673964e098a095?sharedAppSource=personal_library
+
+### Your Turn
+
+1. What should be your number 1 clue to use binary search?
+2. What sorting mechanisms does JS use under the hood to sort arrays?

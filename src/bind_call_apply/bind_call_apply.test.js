@@ -1,4 +1,8 @@
-const { funcToCall, funcToApply, unboundFunc } = require('./bind_call_apply');
+const {
+    personSmallTalk,
+    listHobbies,
+    personGreeting,
+} = require('./bind_call_apply');
 
 const chadObj = {
     name: 'Chadwick',
@@ -13,34 +17,45 @@ const sallyObj = {
 };
 
 describe.skip('this binding', () => {
-    const sallyGreeting = unboundFunc.bind(sallyObj);
-    const chadGreeting = unboundFunc.bind(chadObj);
+    const sallyGreeting = personGreeting.bind(sallyObj);
+    const chadGreeting = personGreeting.bind(chadObj);
     it('returns a new function with `this` explicitly set', () => {
         expect(chadGreeting()).toEqual('Hey my name is Chadwick');
         expect(sallyGreeting()).toEqual('Hey my name is Sally');
     });
 });
 
-describe.skip('funcToCall', () => {
+describe.skip('personSmallTalk', () => {
     it('calls the function with `this` explicitly set and accepts comma separated arguments', () => {
-        expect(funcToCall.call(sallyObj)).toEqual(
-            `My name is Sally and I am a Principal Engineer`
+        expect(personSmallTalk.call(sallyObj, 'pizza', 'movies')).toEqual(
+            `My name is Sally and I am a Principal Engineer and like pizza and movies`
         );
 
-        expect(funcToCall.call(chadObj)).toEqual(
-            `My name is Chadwick and I am a Engineer`
+        expect(personSmallTalk.call(chadObj, 'chaos', 'anarchy')).toEqual(
+            `My name is Chadwick and I am a Engineer and like chaos and anarchy`
         );
     });
 });
 
-describe.skip('funcToApply', () => {
+describe.skip('listHobbies', () => {
     it('calls a function with `this` explicitly set and arguments passed as an array', () => {
-        expect(funcToApply.apply(sallyObj, ['horseback riding'])).toEqual(
-            'Hey my name is Sally and I like horseback riding'
+        expect(
+            listHobbies.apply(sallyObj, [
+                'horseback riding',
+                'catching squirrels',
+            ])
+        ).toEqual(
+            'Hey my name is Sally and I like horseback riding and catching squirrels'
         );
 
-        expect(funcToApply.apply(chadObj, ['walks on the beach'])).toEqual(
-            'Hey my name is Chadwick and I like walks on the beach'
+        expect(
+            listHobbies.apply(chadObj, [
+                'walks on the beach',
+                'killing ants',
+                'eating liver',
+            ])
+        ).toEqual(
+            'Hey my name is Chadwick and I like walks on the beach, killing ants and eating liver'
         );
     });
 });

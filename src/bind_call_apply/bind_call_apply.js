@@ -1,35 +1,35 @@
 /**
- * Return a string that uses `this` to get the name property
+ * Return a greeting
  *
- * @returns {string}
+ * @returns {string} `Hey my name is <person name>
  */
-function unboundFunc() {
+function personGreeting() {
     // your code here
 }
 
 /**
  * Returns a string
  *
- * @param {number} age
- * @param {string} job
- * @returns {string} My name is {name} I am a {job}
+ * @param {string} like1
+ * @param {string} like2
+ * @returns {string} My name is {name} I am a {job} and I like {like1} and {like2}
  */
-function funcToCall() {
+function personSmallTalk(like1, like2) {
     // your code here
 }
 
 /**
  * Returns a string
  *
- * @param {string} hobby
- * @returns {string} My name is {name} and I like {hobby}
+ * @param {string[]} hobbies
+ * @returns {string} Hey my name is {name} and I like {hobbies}
  */
-function funcToApply(hobby) {
+function listHobbies(...hobbies) {
     // your code here
 }
 
 module.exports = {
-    funcToCall,
-    funcToApply,
-    unboundFunc,
+    personSmallTalk,
+    listHobbies,
+    personGreeting,
 };
