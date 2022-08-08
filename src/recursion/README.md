@@ -4,9 +4,13 @@
 
 ### Video
 
-https://www.loom.com/share/0795d0722a8e40e4ba4e1dfb3abc8190
+https://www.loom.com/share/369a10bc19d947c4baa8f5f7559e58f3
+
+https://www.loom.com/share/12340a47a9644752a6e858e90e66e4c0
 
 https://www.loom.com/share/f2f45de9231c430b9cee4e00521f194f
+
+https://www.loom.com/share/e57009d6a1ea4232bbfc00a83cb1d141
 
 ### Reading
 
