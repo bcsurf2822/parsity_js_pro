@@ -4,7 +4,7 @@
  * @returns {string} `Hey my name is <person name>
  */
 function personGreeting() {
-    // your code here
+  // your code here
 }
 
 /**
@@ -15,7 +15,7 @@ function personGreeting() {
  * @returns {string} My name is {name} I am a {job} and I like {like1} and {like2}
  */
 function personSmallTalk(like1, like2) {
-    // your code here
+  // your code here
 }
 
 /**
@@ -25,11 +25,21 @@ function personSmallTalk(like1, like2) {
  * @returns {string} Hey my name is {name} and I like {hobbies}
  */
 function listHobbies(...hobbies) {
-    // your code here
+  // your code here
 }
 
+// HINT: leverage the `call` method to make the following functions work as expected
+
+Function.prototype.myBind = function (context, ...args) {
+  // your code here
+};
+
+Function.prototype.myApply = function (context, args = []) {
+  // your code here
+};
+
 module.exports = {
-    personSmallTalk,
-    listHobbies,
-    personGreeting,
+  personSmallTalk,
+  listHobbies,
+  personGreeting,
 };

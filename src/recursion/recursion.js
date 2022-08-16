@@ -10,7 +10,7 @@
  * @returns {array} ex: [1,2,3,4,5]
  */
 const flattenArray = (arr) => {
-    // add your code here
+  // add your code here
 };
 
 /**
@@ -22,23 +22,35 @@ const flattenArray = (arr) => {
  */
 
 const fileExplorer = (obj, key) => {
-    // add your code here
-    // it should return false if the key cannot be found
+  // add your code here
+  // it should return false if the key cannot be found
 };
 
 /**
  * Returns an array of arrays with all possible permutations
  *
- * @param {array} letters ex: [1,2,3]
+ * @param {array} nums ex: [1,2,3]
  * @returns {array} ex: [[1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], [3,2,1]]
  */
-const permutate = (letters = []) => {
-    // add your code here
-    // returns nested array of all possible permuations
+const permutate = (nums = []) => {
+  // add your code here
+  // returns nested array of all possible permuations
+};
+
+/**
+ * Returns an array of arrays with all possible subsets
+ *
+ * @param {array} nums ex: [1,2,3]
+ * @returns {array} ex: [[], [1], [1,2], [1,3], [2], [2,3], [1,2,3]]
+ */
+const subsets = (nums = []) => {
+  // add your code here
+  // returns nested array of all possible subsets
 };
 
 module.exports = {
-    flattenArray,
-    fileExplorer,
-    permutate,
+  flattenArray,
+  fileExplorer,
+  permutate,
+  subsets,
 };
