@@ -45,31 +45,42 @@ We will go over job/interview strategy in other modules and templates.
 
 ### Table Stakes
 
--   [ ] Prototypes
--   [ ] Bind, Call, Apply
--   [ ] Closure
+- [ ] Prototypes
+- [ ] Bind, Call, Apply
+- [ ] Closure
 
 ### ES6 and Beyond
 
--   [ ] Map, Filter, Reduce
--   [ ] Generators
--   [ ] Classes
+- [ ] Map, Filter, Reduce
+- [ ] Generators
+- [ ] Classes
 
 ### Event Handling
 
--   [ ] Event Handling (Snake Game)
+- [ ] Event Handling (Snake Game)
 
 ### Time Tested Patterns
 
--   [ ] Design Patterns
--   [ ] Lodash Replica-Lite
+- [ ] Design Patterns
+- [ ] Lodash Replica-Lite
 
 ### Big O and Intro to Sorting and Searching
 
--   [ ] Big O Crash Course
--   [ ] Sorting and Searching Algos
+- [ ] Sorting and Searching Algos
 
 ### To Understand Recursion... you must first understand recursion
 
--   [ ] Recursion in JS
--   [ ] Data Structures
+- [ ] Recursion in JS
+
+### Data Structures
+
+- [ ] Trees
+- [ ] Linked Lists
+- [ ] Graphs
+- [ ] Stacks and Queues
+
+## Common Approaches to JS problems
+
+- [ ] Sliding Window
+- [ ] 2 Pointers
+- [ ] Frequency Counter
