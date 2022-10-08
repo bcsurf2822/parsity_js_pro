@@ -53,6 +53,7 @@ We will go over job/interview strategy in other modules and templates.
 
 - [ ] Map, Filter, Reduce
 - [ ] Generators
+- [ ] Async
 - [ ] Classes
 
 ### Event Handling
@@ -82,5 +83,4 @@ We will go over job/interview strategy in other modules and templates.
 ## Common Approaches to JS problems
 
 - [ ] Sliding Window
-- [ ] 2 Pointers
 - [ ] Frequency Counter
