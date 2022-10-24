@@ -29,28 +29,28 @@ const addFactory = (initialNum) => {};
 */
 
 const personWithPrivateProperties = () => {
-    return {
-        age: 10,
-        job: 'Pizza Driver',
-        accountBalance: -5,
-        bankInfo: { name: 'Bank of Venezuela', sensitiveId: 'BV123' },
-        updateBank: () => {
-            //your code here
-        },
-        getBankInfo: () => {
-            //your code here
-        },
-        getAccountBalance: () => {
-            //your code here
-        },
-        updateAccountBalance: (deposit) => {
-            //your code here
-        },
-    };
+  return {
+    age: 10,
+    job: "Pizza Driver",
+    accountBalance: -5,
+    bankInfo: { name: "Bank of Venezuela", sensitiveId: "BV123" },
+    updateBank: () => {
+      //your code here
+    },
+    getBankInfo: () => {
+      //your code here
+    },
+    getAccountBalance: () => {
+      //your code here
+    },
+    updateAccountBalance: (deposit) => {
+      //your code here
+    },
+  };
 };
 
 module.exports = {
-    once,
-    addFactory,
-    personWithPrivateProperties,
+  once,
+  addFactory,
+  personWithPrivateProperties,
 };
