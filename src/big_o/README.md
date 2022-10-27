@@ -1,5 +1,10 @@
 # Big O Crash Course
 
+### Watch
+
+Excellent 5 minute video on Big O
+https://www.youtube.com/watch?v=__vX2sjlpXU&ab_channel=MichaelSambol
+
 ### Reading
 
 https://www.doabledanny.com/big-o-notation-in-javascript
