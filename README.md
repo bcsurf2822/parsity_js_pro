@@ -1,10 +1,10 @@
 # Welcome! 👋
 
-In the coming weeks we are going to stretch your Javascript knowledge and make you more confident with one of the most popular programming languages in the world 🌏!
+You are going to stretch your Javascript knowledge and make you more confident with one of the most popular programming languages in the world 🌏!
 
-This program will be a combination of videos, 1 on 1 coaching sessions and most importantly writing Javascript!
+This program will be a combination of videos, group sessions and most importantly writing Javascript!
 
-Many of the concepts we will cover you may be familiar with but familiarity !== understanding.
+Many of the concepts you will cover you may be familiar with but familiarity !== understanding.
 
 That leads us to our philosophy on learning:
 
