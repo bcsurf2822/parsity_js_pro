@@ -1,14 +1,34 @@
-/*
-    Add your code here for
-    * observer
-    * singleton
-    * factory
-*/
+/**
+ * @class PubSub
+ * @description A simple pub/sub class
+ * @example const pubsub = new PubSub();
+ */
+class PubSub {
+  constructor() {
+    this.subscribers = {};
+  }
 
-// observer pattern
+  subscribe(event, callback) {
+    // TODO: add the callback to the subscribers
+  }
 
-// singleton pattern
+  publish(event, data) {
+    // TODO: call the callback with the data
+  }
+}
 
-// factory pattern
+/**
+ * @class Singleton
+ * @description A simple singleton class
+ * @example const singleton = new Singleton();
+ */
+class Singleton {
+  constructor() {
+    // TODO: return the same instance
+  }
+}
 
-// BONUS - add tests!
+module.exports = {
+  Singleton,
+  PubSub,
+};
