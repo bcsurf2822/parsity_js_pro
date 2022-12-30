@@ -6,18 +6,9 @@ class Stack {
     this.items = [];
   }
 
-  push(item) {
-    this.items.push(item);
-    return this.items;
-  }
+  push(item) { }
 
-  pop() {
-    const poppedVal = this.items[this.items.length - 1];
-    console.log(poppedVal);
-    this.items.splice(this.items.length - 1, 1);
-    console.log(this.items);
-    return poppedVal;
-  }
+  pop() { }
 
   peek() { }
 
@@ -29,11 +20,5 @@ class Stack {
 
   print() { }
 }
-
-const test = new Stack();
-console.log(test.push(1));
-console.log(test.push(2));
-console.log(test.pop());
-console.log(test);
 
 module.exports = { Stack };

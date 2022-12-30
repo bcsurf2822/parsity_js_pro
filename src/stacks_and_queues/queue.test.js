@@ -35,7 +35,8 @@ describe("Queue", () => {
     const queue = new Queue();
     queue.enqueue(1);
     queue.enqueue(2);
+    queue.dequeue(1);
 
-    expect(queue.size()).toEqual(2);
+    expect(queue.size()).toEqual(1);
   });
 });
