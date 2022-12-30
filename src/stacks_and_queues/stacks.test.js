@@ -1,6 +1,6 @@
 const { Stack } = require("./stacks");
 
-describe.skip("Stack", () => {
+describe("Stack", () => {
   it("should push an item", () => {
     const stack = new Stack();
     stack.push(1);
@@ -16,7 +16,7 @@ describe.skip("Stack", () => {
     expect(stack.pop()).toBe(2);
     expect(stack.items).toEqual([1]);
   });
-  it("should peek an item", () => {
+  it.skip("should peek an item", () => {
     const stack = new Stack();
     stack.push(1);
     stack.push(2);
@@ -24,12 +24,12 @@ describe.skip("Stack", () => {
     expect(stack.peek()).toBe(2);
     expect(stack.items).toEqual([1, 2]);
   });
-  it("should return true if the stack is empty", () => {
+  it.skip("should return true if the stack is empty", () => {
     const stack = new Stack();
 
     expect(stack.isEmpty()).toBe(true);
   });
-  it("should return false if the stack is not empty", () => {
+  it.skip("should return false if the stack is not empty", () => {
     const stack = new Stack();
     stack.push(1);
     stack.push(2);
@@ -37,7 +37,7 @@ describe.skip("Stack", () => {
     expect(stack.isEmpty()).toBe(false);
   });
 
-  it("should clear the stack", () => {
+  it.skip("should clear the stack", () => {
     const stack = new Stack();
     stack.push(1);
     stack.push(2);
@@ -45,7 +45,7 @@ describe.skip("Stack", () => {
 
     expect(stack.items).toEqual([]);
   });
-  it("should print the stack", () => {
+  it.skip("should print the stack", () => {
     const stack = new Stack();
     stack.push(1);
     stack.push(2);
