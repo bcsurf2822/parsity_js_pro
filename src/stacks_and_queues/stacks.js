@@ -6,19 +6,33 @@ class Stack {
     this.items = [];
   }
 
-  push(item) { }
+  push(item) {
+    return this.items.push(item);
+  }
 
-  pop() { }
+  pop() {
+    return this.items.pop();
+  }
 
-  peek() { }
+  peek() {
+    return this.items[this.items.length - 1];
+  }
 
-  isEmpty() { }
+  isEmpty() {
+    return this.items.length === 0;
+  }
 
-  size() { }
+  size() {
+    return this.items.length;
+  }
 
-  clear() { }
+  clear() {
+    return this.items = [];
+  }
 
-  print() { }
+  print() {
+    return this.items;
+  }
 }
 
 module.exports = { Stack };

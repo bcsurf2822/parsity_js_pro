@@ -5,7 +5,7 @@ const {
   subsets,
 } = require("./recursion");
 
-describe.skip("flattenArray", () => {
+describe("flattenArray", () => {
   it("returns a flattened array from nested set of arrays", () => {
     const nestedArr = [1, 2, [3, 4], [5, [6, [7, 8, [9]]]], 10];
 

@@ -9,9 +9,19 @@
  * @param {array} arr [1, [2, [3, [4, 5]]]]
  * @returns {array} ex: [1,2,3,4,5]
  */
-const flattenArray = (arr) => {
+const flattenArray = (arr, result = []) => {
   // add your code here
+  for (let i = 0; i < arr.length; i++) {
+    if (Array.isArray(arr[i])) {
+      flattenArray(arr[i], result);
+    } else {
+      result.push(arr[i]);
+    }
+  }
+  return result;
 };
+
+// console.log(flattenArray([1, [2, [3, [4, 5]]]])); // --> [1,2,3,4,5] 
 
 /**
  * Return a boolean based on whether a key is available in an object
@@ -35,6 +45,7 @@ const fileExplorer = (obj, key) => {
 const permutate = (nums = []) => {
   // add your code here
   // returns nested array of all possible permuations
+
 };
 
 /**
