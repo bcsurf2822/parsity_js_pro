@@ -18,7 +18,7 @@ const sallyObj = {
   job: "Principal Engineer",
 };
 
-describe.skip("this binding", () => {
+describe("this binding", () => {
   const sallyGreeting = personGreeting.bind(sallyObj);
   const chadGreeting = personGreeting.bind(chadObj);
   it("returns a new function with `this` explicitly set", () => {
