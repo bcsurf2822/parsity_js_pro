@@ -9,6 +9,7 @@ function Node(val) {
 
 LinkedList.prototype.addNode = function (val) {
     //add your code here
+
 };
 
 LinkedList.prototype.removeNode = function (val) {
