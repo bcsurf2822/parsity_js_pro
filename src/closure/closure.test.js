@@ -38,7 +38,7 @@ describe.skip("addFactory", () => {
     expect(add4(3)).toEqual(7);
   });
 });
-describe.skip("personWithPrivateProperties", () => {
+describe("personWithPrivateProperties", () => {
   it("does not allow access to the person`s account balance or bankInfo", () => {
     const person = personWithPrivateProperties();
     expect(person.accountBalance).toEqual(undefined);
