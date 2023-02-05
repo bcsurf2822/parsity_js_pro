@@ -10,7 +10,7 @@ But it could use some help. Like a lot.
 
 ### Video
 
-[COMING]
+https://www.loom.com/share/ecf00b0434c24745938ace9541374470
 
 ### TODO
 
