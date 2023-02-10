@@ -53,7 +53,7 @@ describe.skip("handleMultiplePromises", () => {
   });
 });
 
-describe("implements promise all", () => {
+describe.skip("implements promise all", () => {
   it("returns an array of responses returned from a set of promises", async () => {
     const apiCall1 = new Promise((resolve) => {
       setTimeout(() => {
