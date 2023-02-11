@@ -83,8 +83,6 @@ describe.skip("implements promise all", () => {
   });
 
   it("rejects if 1 promise fails", async () => {
-    jest.spyOn("Promise", "all");
-
     const apiCall1 = new Promise((resolve) => {
       setTimeout(() => {
         resolve({ message: "1" });

@@ -34,7 +34,9 @@ const handleMultiplePromises = async (promises = []) => {
  * @param {Array} promises an array of promises
  * @returns {Array} an array of responses returned from a set of promises
  */
-const myPromiseAll = async (promises = []) => {};
+const myPromiseAll = async (promises = []) => {
+  // DO NOT use Promise.all
+};
 
 module.exports = {
   getDataPromiseChain,
