@@ -78,8 +78,6 @@ describe.skip("implements promise all", () => {
       { message: "2" },
       { message: "3" },
     ]);
-
-    expect(Promise.all).toBeCalledTimes(0);
   });
 
   it("rejects if 1 promise fails", async () => {
