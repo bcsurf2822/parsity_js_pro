@@ -5,7 +5,7 @@
  */
 const Person = function () {
   this.name = this.name;
-}
+};
 
 function personGreeting() {
   // your code here

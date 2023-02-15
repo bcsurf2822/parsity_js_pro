@@ -8,13 +8,6 @@
 
 const once = (callback) => {
   let called = false;
-
-  return (...args) => {
-    if (!called) {
-      called = true;
-      return callback(...args);
-    }
-  }
 };
 
 /* 
@@ -27,11 +20,7 @@ const once = (callback) => {
     add2(3) -> 5
 */
 
-const addFactory = (initialNum) => {
-  return (val) => {
-    return initialNum + val;
-  }
-};
+const addFactory = (initialNum) => {};
 
 /* 
     Our person has some sensitive information exposed below
@@ -42,45 +31,25 @@ const addFactory = (initialNum) => {
 */
 
 const personWithPrivateProperties = () => {
-  let accountBalance = -5;
-  let bankInfo = { name: "Bank of Venezuela", sensitiveId: "BV123" };
-
   return {
     age: 10,
     job: "Pizza Driver",
-    updateBank: (newBankInfo) => {
+    accountBalance: -5,
+    bankInfo: { name: "Bank of Venezuela", sensitiveId: "BV123" },
+    updateBank: () => {
       //your code here
-      bankInfo = newBankInfo;
-      return bankInfo;
     },
     getBankInfo: () => {
-      const { name } = bankInfo;
-      return name;
+      //your code here
     },
     getAccountBalance: () => {
       //your code here
-      return accountBalance;
     },
-    updateAccountBalance: (deposit) => {
+    updateAccountBalance: () => {
       //your code here
-      return accountBalance += deposit;
     },
   };
 };
-
-const person = personWithPrivateProperties();
-console.log(person.accountBalance); // undefined
-console.log(person.bankInfo); // undefined
-console.log(person.age); // 10
-console.log(person.job); // 'Pizza Driver'
-console.log(person.getAccountBalance()); // 5
-console.log(person.updateAccountBalance(100)); // 95 
-
-console.log(person.getBankInfo());
-console.log(person.updateBank({ name: "American Express", sensitiveId: "DI325" }));
-console.log(person.getBankInfo());
-
-
 
 module.exports = {
   once,

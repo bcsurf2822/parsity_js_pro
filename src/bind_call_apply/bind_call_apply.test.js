@@ -18,7 +18,7 @@ const sallyObj = {
   job: "Principal Engineer",
 };
 
-describe("this binding", () => {
+describe.skip("this binding", () => {
   const sallyGreeting = personGreeting.bind(sallyObj);
   const chadGreeting = personGreeting.bind(chadObj);
   it("returns a new function with `this` explicitly set", () => {
@@ -74,9 +74,8 @@ describe.skip("Function.prototype.myBind", () => {
   });
 });
 
-describe.skip("Function.prototype.myApply", () => {
+describe("Function.prototype.myApply", () => {
   const funcThatNeedsThis = function (arg1, arg2) {
-    console.log(arg1, arg2, "ARGS", this.name);
     return `${this.name} likes ${arg1} and ${arg2}`;
   };
 
