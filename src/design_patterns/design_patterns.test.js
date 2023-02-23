@@ -29,10 +29,14 @@ describe.skip("design patterns", () => {
     });
   });
   describe("singleton", () => {
-    it("should return the same instance", () => {
-      const singleton = new Singleton();
-      const singleton2 = new Singleton();
-      expect(singleton).toBe(singleton2);
+    it("should throw an error if another instance is created", () => {
+      expect.assertions(1);
+      try {
+        new Singleton();
+        new Singleton();
+      } catch (e) {
+        expect(e.message).toBe("Cannot create another instance");
+      }
     });
   });
 });
