@@ -12,4 +12,4 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 ### Your Turn
 
-Write an article or record a video on closure with some examples and send it to your mentor via slack.
+Write an article or record a video on closure with some examples and send it to me via Slack or email at brianjenney@jswizards.io.

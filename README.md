@@ -28,7 +28,7 @@ Your LinkedIn, resume and general job strategy must be aligned with your goals a
 1. Fork this repo
 2. In your terminal run `npm install`
 3. To run tests - first unskip the tests in the file you are working on by removing all `skip`s. Then run `npm test`. To test a specific file: `npm test path/to/file.test.js`
-4. Once you complete a module, send a quick video walking through your work and a screenshot of the passing tests (or include it in the video) via Slack
+4. Once you complete a module, send a quick video walking through your work and a screenshot of the passing tests (or include it in the video) via Slack or email at brianjenney@jswizards.io
 
 #### How to run tests:
 
