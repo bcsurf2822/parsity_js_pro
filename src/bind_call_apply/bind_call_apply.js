@@ -3,8 +3,6 @@
  *
  * @returns {string} `Hey my name is <person name>
  */
-const Person = function () {};
-
 function personGreeting() {
   // your code here
 }
@@ -14,7 +12,7 @@ function personGreeting() {
  *
  * @param {string} like1
  * @param {string} like2
- * @returns {string} My name is {name} I am a {job} and I like {like1} and {like2}
+ * @returns {string} My name is {name} I am a {job} like {like1} and {like2}
  */
 function personSmallTalk(like1, like2) {
   // your code here
