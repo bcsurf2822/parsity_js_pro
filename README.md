@@ -2,8 +2,6 @@
 
 You are going to stretch your Javascript knowledge and make you more confident with one of the most popular programming languages in the world 🌏!
 
-This program will be a combination of videos, group sessions and most importantly writing Javascript!
-
 Many of the concepts you will cover you may be familiar with but familiarity !== understanding.
 
 That leads us to our philosophy on learning:
@@ -23,22 +21,48 @@ We know that getting your dream job as a software engineer or excelling in your 
 
 Your LinkedIn, resume and general job strategy must be aligned with your goals and your mindset must be in the correct state to perform to the best of your ability.
 
+Use the material in the rest of this course to fix those aspects and don't hesitate to reach out for help via email or to set up a short 1 to 1.
+
+---
+
 ### Setup
+
+---
 
 1. Fork this repo
 2. In your terminal run `npm install`
 3. To run tests - first unskip the tests in the file you are working on by removing all `skip`s. Then run `npm test`. To test a specific file: `npm test path/to/file.test.js`
 4. Once you complete a module, send a quick video walking through your work and a screenshot of the passing tests (or include it in the video) via Slack or email at brianjenney@jswizards.io
 
+---
+
 #### How to run tests:
 
+---
+
 🎥 https://www.loom.com/share/7a1fd8ca234645538afd546246d13ebe
+
+---
+
+#### Solutions
+
+---
+
+Don't check out this branch unless you really need to:
+
+[`solutions`](https://github.com/CodeCoachJS/main_course/tree/secret_solutions)
+
+```bash
+git checkout solutions
+```
 
 ---
 
 # Let's get started! 🚀
 
 ---
+
+Here's the order I suggest you approach this material but feel free to jump around and please `git pull` every so often to get the most up to date material.
 
 ### Table Stakes
 
