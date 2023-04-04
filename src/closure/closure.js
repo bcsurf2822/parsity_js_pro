@@ -6,9 +6,7 @@
     myFunc() -> undefined
 */
 
-const once = (callback) => {
-  let called = false;
-};
+const once = (callback) => {};
 
 /* 
     Write a function that returns a function that take an initial number
