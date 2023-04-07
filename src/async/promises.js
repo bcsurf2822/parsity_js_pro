@@ -4,15 +4,26 @@ const fakeApiCall = (args) => {
   });
 };
 
+/**
+ *
+ * @returns {Promise} a promise that resolves to an object with the following shape:
+ * {
+ *  name: "Heather",
+ * job: "code monkey",
+ * age: 420,
+ * }
+ */
 const getDataPromiseChain = () => {
+  // TODO: this almost works but it's not quite right
+  // what's wrong with this implementation?
   const retVal = {};
   return fakeApiCall({ name: "Heather" }).then((res) => {
     retVal.name = res.data.name;
 
-    return fakeApiCall({ job: "code monkey" }).then((res) => {
+    fakeApiCall({ job: "code monkey" }).then((res) => {
       retVal.job = res.data.job;
 
-      return fakeApiCall({ age: 420 }).then((res) => {
+      fakeApiCall({ age: 420 }).then((res) => {
         retVal.age = res.data.age;
         return retVal;
       });
