@@ -3,12 +3,9 @@
  * @param  {...any} fns javascript functions
  * @returns {function} a function that takes in an argument and passes it through all the functions
  */
-const composeFunctions = (...fns) =>
-  fns.reduce(
-    (f, g) =>
-      (...args) =>
-        f(g(...args))
-  );
+const composeFunctions = (...fns) => {
+	// TODO: make a compose function that takes in a list of functions and returns a function that takes in an argument and passes it through all the functions
+};
 
 /**
  * Transforms an item using a list of functions
@@ -17,29 +14,29 @@ const composeFunctions = (...fns) =>
  * @returns {*} the transformed item in its original shape
  */
 const transforms = (item) => {
-  // TODO: make these function pure (no side effects)
-  const removeJob = (obj) => {
-    delete obj.job;
-    return obj;
-  };
-  const addName = (obj) => {
-    obj.name = obj.name.toLocaleUpperCase();
+	// TODO: make these function pure (no side effects)
+	const removeJob = (obj) => {
+		delete obj.job;
+		return obj;
+	};
+	const addName = (obj) => {
+		obj.name = obj.name.toLocaleUpperCase();
 
-    return obj;
-  };
-  const updateAge = (obj) => {
-    obj.age = Number(obj.age);
-    return obj;
-  };
+		return obj;
+	};
+	const updateAge = (obj) => {
+		obj.age = Number(obj.age);
+		return obj;
+	};
 
-  const fns = [removeJob, addName, updateAge];
+	const fns = [removeJob, addName, updateAge];
 
-  return fns.reduce((acc, fn) => {
-    return fn(acc);
-  }, item);
+	return fns.reduce((acc, fn) => {
+		return fn(acc);
+	}, item);
 };
 
 module.exports = {
-  composeFunctions,
-  transforms,
+	composeFunctions,
+	transforms,
 };
