@@ -6,7 +6,6 @@ const personA = new Person();
 
 // TODO:
 // create another instance of Person called personB
-const personB = new Person(); // change me
 
 // TODO:
 // override the default name and job of personB
@@ -26,7 +25,7 @@ Person.prototype.greeting = function () {};
 Array.prototype.myCustomFind = function (num) {};
 
 module.exports = {
-  personB,
-  personA,
-  Person,
+	personB,
+	personA,
+	Person,
 };
