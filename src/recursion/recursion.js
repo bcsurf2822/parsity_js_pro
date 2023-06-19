@@ -10,18 +10,10 @@
  * @returns {array} ex: [1,2,3,4,5]
  */
 const flattenArray = (arr, result = []) => {
-  // add your code here
-  for (let i = 0; i < arr.length; i++) {
-    if (Array.isArray(arr[i])) {
-      flattenArray(arr[i], result);
-    } else {
-      result.push(arr[i]);
-    }
-  }
-  return result;
+	// add your code here
 };
 
-// console.log(flattenArray([1, [2, [3, [4, 5]]]])); // --> [1,2,3,4,5] 
+// console.log(flattenArray([1, [2, [3, [4, 5]]]])); // --> [1,2,3,4,5]
 
 /**
  * Return a boolean based on whether a key is available in an object
@@ -32,8 +24,8 @@ const flattenArray = (arr, result = []) => {
  */
 
 const fileExplorer = (obj, key) => {
-  // add your code here
-  // it should return false if the key cannot be found
+	// add your code here
+	// it should return false if the key cannot be found
 };
 
 /**
@@ -43,9 +35,8 @@ const fileExplorer = (obj, key) => {
  * @returns {array} ex: [[1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], [3,2,1]]
  */
 const permutate = (nums = []) => {
-  // add your code here
-  // returns nested array of all possible permuations
-
+	// add your code here
+	// returns nested array of all possible permuations
 };
 
 /**
@@ -55,13 +46,13 @@ const permutate = (nums = []) => {
  * @returns {array} ex: [[], [1], [1,2], [1,3], [2], [2,3], [1,2,3]]
  */
 const subsets = (nums = []) => {
-  // add your code here
-  // returns nested array of all possible subsets
+	// add your code here
+	// returns nested array of all possible subsets
 };
 
 module.exports = {
-  flattenArray,
-  fileExplorer,
-  permutate,
-  subsets,
+	flattenArray,
+	fileExplorer,
+	permutate,
+	subsets,
 };

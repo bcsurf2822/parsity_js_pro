@@ -2,37 +2,37 @@
  * The stack data structure is a LIFO (last in first out) data structure.
  */
 class Stack {
-  constructor() {
-    this.items = [];
-  }
+	constructor() {
+		this.items = [];
+	}
 
-  push(item) {
-    return this.items.push(item);
-  }
+	push(item) {
+		return this.items.push(item);
+	}
 
-  pop() {
-    return this.items.pop();
-  }
+	pop() {
+		// TODO
+	}
 
-  peek() {
-    return this.items[this.items.length - 1];
-  }
+	peek() {
+		// TODO
+	}
 
-  isEmpty() {
-    return this.items.length === 0;
-  }
+	isEmpty() {
+		// TODO
+	}
 
-  size() {
-    return this.items.length;
-  }
+	size() {
+		// TODO
+	}
 
-  clear() {
-    return this.items = [];
-  }
+	clear() {
+		// TODO
+	}
 
-  print() {
-    return this.items;
-  }
+	print() {
+		return this.items;
+	}
 }
 
 module.exports = { Stack };

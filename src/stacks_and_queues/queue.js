@@ -3,34 +3,29 @@
  */
 
 class Queue {
-  constructor() {
-    this.items = [];
-  }
+	constructor() {
+		this.items = [];
+	}
 
-  enqueue(item) {
-    // your code here
-    return this.items.push(item);
-  }
+	enqueue(item) {
+		// your code here
+	}
 
-  dequeue() {
-    // your code here
-    return this.items.shift();
-  }
+	dequeue() {
+		// your code here
+	}
 
-  front() {
-    // your code here
-    return this.items[0];
-  }
+	front() {
+		// your code here
+	}
 
-  isEmpty() {
-    // your code here
-    return this.items.length === 0;
-  }
+	isEmpty() {
+		// your code here
+	}
 
-  size() {
-    // your code here
-    return this.items.length;
-  }
+	size() {
+		// your code here
+	}
 }
 
 module.exports = { Queue };

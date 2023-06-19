@@ -5,7 +5,9 @@
  * @returns {number} index of target in array
  */
 
-const binarySearch = (arr, target) => {};
+const binarySearch = (arr, target) => {
+	// TODO: implement binary search
+};
 
 /**
  *
@@ -13,7 +15,9 @@ const binarySearch = (arr, target) => {};
  * @returns {array} sorted array
  */
 
-const mergeSort = (arr) => {};
+const mergeSort = (arr) => {
+	// TODO: implement merge sort
+};
 
 /**
  *
@@ -21,7 +25,9 @@ const mergeSort = (arr) => {};
  * @returns {array} sorted array
  */
 
-const quickSort = (arr) => {};
+const quickSort = (arr) => {
+	// TODO: implement quick sort
+};
 
 module.exports = {
 	binarySearch,
