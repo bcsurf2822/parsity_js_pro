@@ -29,7 +29,7 @@ Use the material in the rest of this course to fix those aspects and don't hesit
 
 ---
 
-1. Fork this repo
+1. Fork this repo OR open in Code Spaces with Git Pod
 2. In your terminal run `npm install`
 3. To run tests - first unskip the tests in the file you are working on by removing all `skip`s. Then run `npm test`. To test a specific file: `npm test path/to/file.test.js`
 4. Once you complete a module, send a quick video walking through your work and a screenshot of the passing tests (or include it in the video) via Slack or email at brianjenney@jswizards.io
@@ -66,42 +66,43 @@ Here's the order I suggest you approach this material but feel free to jump arou
 
 ### Table Stakes
 
-- [ ] Prototypes
-- [ ] Bind, Call, Apply
-- [ ] Closure
+-   [ ] Prototypes
+-   [ ] Bind, Call, Apply
+-   [ ] Closure
 
 ### ES6 and Beyond
 
-- [ ] Map, Filter, Reduce
-- [ ] Generators
-- [ ] Async
-- [ ] Classes
+-   [ ] Map, Filter, Reduce
+-   [ ] Generators
+-   [ ] Async
+-   [ ] Classes
 
 ### Event Handling
 
-- [ ] Event Handling (Snake Game)
+-   [ ] Event Handling (Snake Game)
 
 ### Time Tested Patterns
 
-- [ ] Design Patterns
-- [ ] Lodash Replica-Lite
+-   [ ] Design Patterns
+-   [ ] Lodash Replica-Lite
+-   [ ] Functional JS
 
 ### Big O and Intro to Sorting and Searching
 
-- [ ] Sorting and Searching Algos
-
-### To Understand Recursion... you must first understand recursion
-
-- [ ] Recursion in JS
+-   [ ] Sorting and Searching Algos
 
 ### Data Structures
 
-- [ ] Trees
-- [ ] Linked Lists
-- [ ] Graphs
-- [ ] Stacks and Queues
+-   [ ] Trees and tries
+-   [ ] Linked Lists
+-   [ ] Graphs
+-   [ ] Stacks and Queues
+
+### To Understand Recursion... you must first understand recursion
+
+-   [ ] Recursion in JS
 
 ## Common Approaches to JS problems
 
-- [ ] Sliding Window
-- [ ] Frequency Counter
+-   [ ] Sliding Window
+-   [ ] Frequency Counter

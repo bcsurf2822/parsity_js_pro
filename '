@@ -1,0 +1,90 @@
+update readme order or stuff and add functional JS section
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   README.md
+#
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+diff --git a/README.md b/README.md
+index f6c9f24..945970f 100644
+--- a/README.md
++++ b/README.md
+@@ -29,7 +29,7 @@ Use the material in the rest of this course to fix those aspects and don't hesit
+ 
+ ---
+ 
+-1. Fork this repo
++1. Fork this repo OR open in Code Spaces with Git Pod
+ 2. In your terminal run `npm install`
+ 3. To run tests - first unskip the tests in the file you are working on by removing all `skip`s. Then run `npm test`. To test a specific file: `npm test path/to/file.test.js`
+ 4. Once you complete a module, send a quick video walking through your work and a screenshot of the passing tests (or include it in the video) via Slack or email at brianjenney@jswizards.io
+@@ -66,42 +66,43 @@ Here's the order I suggest you approach this material but feel free to jump arou
+ 
+ ### Table Stakes
+ 
+-- [ ] Prototypes
+-- [ ] Bind, Call, Apply
+-- [ ] Closure
++-   [ ] Prototypes
++-   [ ] Bind, Call, Apply
++-   [ ] Closure
+ 
+ ### ES6 and Beyond
+ 
+-- [ ] Map, Filter, Reduce
+-- [ ] Generators
+-- [ ] Async
+-- [ ] Classes
++-   [ ] Map, Filter, Reduce
++-   [ ] Generators
++-   [ ] Async
++-   [ ] Classes
+ 
+ ### Event Handling
+ 
+-- [ ] Event Handling (Snake Game)
++-   [ ] Event Handling (Snake Game)
+ 
+ ### Time Tested Patterns
+ 
+-- [ ] Design Patterns
+-- [ ] Lodash Replica-Lite
++-   [ ] Design Patterns
++-   [ ] Lodash Replica-Lite
++-   [ ] Functional JS
+ 
+ ### Big O and Intro to Sorting and Searching
+ 
+-- [ ] Sorting and Searching Algos
++-   [ ] Sorting and Searching Algos
+ 
+-### To Understand Recursion... you must first understand recursion
++### Data Structures
+ 
+-- [ ] Recursion in JS
++-   [ ] Trees and tries
++-   [ ] Linked Lists
++-   [ ] Graphs
++-   [ ] Stacks and Queues
+ 
+-### Data Structures
++### To Understand Recursion... you must first understand recursion
+ 
+-- [ ] Trees
+-- [ ] Linked Lists
+-- [ ] Graphs
+-- [ ] Stacks and Queues
++-   [ ] Recursion in JS
+ 
+ ## Common Approaches to JS problems
+ 
+-- [ ] Sliding Window
+-- [ ] Frequency Counter
++-   [ ] Sliding Window
++-   [ ] Frequency Counter
