@@ -1,23 +1,30 @@
-/*
-    Implement binary search
-*/
+/**
+ *
+ * @param {number} target number to find in array
+ * @param {array} arr array of numbers
+ * @returns {number} index of target in array
+ */
 
-const binarySearch = () => {};
+const binarySearch = (arr, target) => {};
 
-/*
-    Implement merge sort
-*/
+/**
+ *
+ * @param {array} arr of numbers
+ * @returns {array} sorted array
+ */
 
-const mergeSort = () => {};
+const mergeSort = (arr) => {};
 
-/*
-    Implement quick sort
-*/
+/**
+ *
+ * @param {array} arr of numbers
+ * @returns {array} sorted array
+ */
 
-const quickSort = () => {};
+const quickSort = (arr) => {};
 
 module.exports = {
-    binarySearch,
-    mergeSort,
-    quickSort,
+	binarySearch,
+	mergeSort,
+	quickSort,
 };
