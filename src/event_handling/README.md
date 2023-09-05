@@ -2,7 +2,7 @@
 
 ---
 
-This week you will be building your own snake game! The video below will show you an example of what you will need to make. This will be a challenging project but will reinforce your understanding of vanilla JS, DOM manipulation and handling events.
+Time to build your own snake game! The video below will show you an example of what you will need to make. This will be a challenging project but will reinforce your understanding of vanilla JS, DOM manipulation and handling events.
 
 Snake Game Template: https://codepen.io/brian_jenney/pen/XWeYgyb
 
