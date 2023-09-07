@@ -53,7 +53,7 @@ Don't check out this branch unless you really need to:
 [`solutions`](https://github.com/CodeCoachJS/main_course/tree/secret_solutions)
 
 ```bash
-git checkout solutions
+git checkout secret_solutions
 ```
 
 ---
