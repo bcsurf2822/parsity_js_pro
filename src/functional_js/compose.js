@@ -1,6 +1,6 @@
 /**
  * Composes a list of functions into a single function
- * @param  {...any} fns javascript functions
+ * @param  {function[]} fns javascript functions
  * @returns {function} a function that takes in an argument and passes it through all the functions
  */
 const composeFunctions = (...fns) => {
@@ -9,7 +9,7 @@ const composeFunctions = (...fns) => {
 
 /**
  * Transforms an item using a list of functions
- * @param {*} fns an array of functions
+ * @param {function[]} fns an array of functions
  * @param {*} item an item to transform
  * @returns {*} the transformed item in its original shape
  */
