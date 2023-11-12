@@ -17,11 +17,7 @@ We have laid out the most common concepts that confuse JS developers. Here's how
 5. Often times, the solution will be in the video in the `README.md` - DO NOT simply copy the answer from there! You will learn nothing
 6. For the love of Bob, please do the `Your Turn` sections in each `README.md` - these will help you really retain the information!
 
-We know that getting your dream job as a software engineer or excelling in your current role requires a strong technical foundation but that's not all!
-
-Your LinkedIn, resume and general job strategy must be aligned with your goals and your mindset must be in the correct state to perform to the best of your ability.
-
-Use the material in the rest of this course to fix those aspects and don't hesitate to reach out for help via email or to set up a short 1 to 1.
+We know that getting your dream job as a software engineer or excelling in your current role requires a strong technical foundation.
 
 ---
 
@@ -32,7 +28,7 @@ Use the material in the rest of this course to fix those aspects and don't hesit
 1. Fork this repo OR open in Code Spaces with Git Pod
 2. In your terminal run `npm install`
 3. To run tests - first unskip the tests in the file you are working on by removing all `skip`s. Then run `npm test`. To test a specific file: `npm test path/to/file.test.js`
-4. Once you complete a module, send a quick video walking through your work and a screenshot of the passing tests (or include it in the video) via Slack or email at brianjenney@jswizards.io
+4. Feel free to post your solution video in a Slack channel so others can learn from your work. If you post on LinkedIn or Twitter, tag us!
 
 ---
 
